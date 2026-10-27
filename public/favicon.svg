@@ -1,0 +1,91 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="48"
+  height="48"
+  viewBox="0 0 48 48"
+  fill="none"
+>
+  <defs>
+    <linearGradient
+      id="cc-dashboard-gradient"
+      x1="8"
+      y1="7"
+      x2="40"
+      y2="41"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#47BFFF"/>
+      <stop offset="0.5" stop-color="#863BFF"/>
+      <stop offset="1" stop-color="#7E14FF"/>
+    </linearGradient>
+
+    <filter
+      id="cc-dashboard-shadow"
+      x="-10"
+      y="-10"
+      width="68"
+      height="68"
+      filterUnits="userSpaceOnUse"
+    >
+      <feDropShadow
+        dx="0"
+        dy="3"
+        stdDeviation="3"
+        flood-color="#863BFF"
+        flood-opacity=".22"
+      />
+    </filter>
+  </defs>
+
+  <!-- Main CC logo -->
+  <g filter="url(#cc-dashboard-shadow)">
+
+    <!-- Rounded brand container -->
+    <rect
+      x="4"
+      y="4"
+      width="40"
+      height="40"
+      rx="12"
+      fill="url(#cc-dashboard-gradient)"
+    />
+
+    <!-- Inner highlight -->
+    <rect
+      x="6"
+      y="6"
+      width="36"
+      height="36"
+      rx="10"
+      fill="white"
+      fill-opacity=".08"
+    />
+
+    <!-- First C -->
+    <path
+      d="M27.2 15.4C25.8 14.3 24 13.7 22.1 13.7C17.3 13.7 13.4 17.3 13.4 22C13.4 26.7 17.3 30.3 22.1 30.3C24 30.3 25.8 29.7 27.2 28.6"
+      fill="none"
+      stroke="white"
+      stroke-width="3.6"
+      stroke-linecap="round"
+    />
+
+    <!-- Second C -->
+    <path
+      d="M34.7 15.4C33.3 14.3 31.5 13.7 29.6 13.7C24.8 13.7 20.9 17.3 20.9 22C20.9 26.7 24.8 30.3 29.6 30.3C31.5 30.3 33.3 29.7 34.7 28.6"
+      fill="none"
+      stroke="white"
+      stroke-width="3.6"
+      stroke-linecap="round"
+    />
+
+    <!-- Small brand accent -->
+    <circle
+      cx="34.5"
+      cy="34"
+      r="2"
+      fill="#47BFFF"
+    />
+
+  </g>
+</svg>
